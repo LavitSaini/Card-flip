@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <audio src="sounds/button click.mp3" id="button-click-audio"></audio>
+    <audio src="sounds/cards flip.mp3" id="cards-flip-audio"></audio>
+    <audio src="sounds/cards matched.wav" id="cards-matched-audio"></audio>
+    <audio src="sounds/game win.mp3" id="game-win-audio"></audio>
+    <header id="header">
+        <h1 class="heading">Cards Flip Game</h1>
+        <div class="count-box"><p class="counter-board"></p></div>
+    </header>
+    <main id="main">
+        <div class="cards-container"></div>
+        <div class="overlay">
+            <div class="overlay-box">
+                <div class="buttons-box">
+                    <button class="btn play">Play</button>
+                    <button class="btn quit">Quit</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
