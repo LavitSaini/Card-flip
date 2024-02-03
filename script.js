@@ -76,7 +76,7 @@ function main(){ // Main function
   
   // function to change the value of counter borad
   function changeCounterBoard() {
-    counterBoard.innerText = `Counts: ${counter}`;
+    counterBoard.innerText = `Moves: ${counter}`;
   }
   
   changeCounterBoard();
